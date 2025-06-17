@@ -19,7 +19,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 <a id="Biography-page" class="anchor" href="#biography-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Education</h2>
 <div style="text-align: justify; display: block; margin-right: auto;">
 <p>
-<br>I hold a Bachelor's degree from Edwardes College Peshawar, affiliated with the University of Peshawar. During my undergraduate studies, I actively collaborated on several projects related to Machine Learning and Cybersecurity. These included an Object Counting System for inventory management using YOLOv8-based object detection, an apartment price analysis tool for tourist-targeted areas, and a Final Year Project focused on Web Application Penetration Testing, which you can <a href="https://edwardes.edu.pk/StudentResearch" target="_blank">view on the Edwardes College Research Portal</a>.
+<br>I hold a Bachelor's degree from Edwardes College Peshawar, affiliated with the University of Peshawar. During my undergraduate studies, I actively collaborated on several projects related to Machine Learning and Cybersecurity. These included an Object Counting System for inventory management using YOLOv8-based object detection, an apartment price analysis tool for tourist-targeted areas, and a Final Year Project focused on Web Application Penetration Testing, which you can <a href="https://edwardes.edu.pk/StudentResearch" style="color: #1a73e8; font-weight: bold;" target="_blank">view on the Edwardes College Research Portal</a>.
  <br> 
 <hr />
 </p>

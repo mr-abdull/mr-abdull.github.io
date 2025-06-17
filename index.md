@@ -20,6 +20,10 @@ tags: [Jekyll, theme, responsive, blog, template]
 <div style="text-align: justify; display: block; margin-right: auto;">
 <p>
 <br>I hold a Bachelor's degree from Edwardes College Peshawar, affiliated with the University of Peshawar. During my undergraduate studies, I actively collaborated on several projects related to Machine Learning and Cybersecurity. These included an Object Counting System for inventory management using YOLOv8-based object detection, an apartment price analysis tool for tourist-targeted areas, and a Final Year Project focused on Web Application Penetration Testing. <br> 
+ <a href="https://edwardes.edu.pk/StudentResearch" target="_blank">
+  View my Final Year Project publication
+</a>
+
 <hr />
 </p>
 

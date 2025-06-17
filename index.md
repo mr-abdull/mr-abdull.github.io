@@ -32,7 +32,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 
 <h2>
 <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Certifications:</h2>
- <ul>
+<ul>
   <li><Strong>11/01/2024</Strong> Ethical Hacker from CISCO Networking Academy </li>
   <li><Strong>13/01/2024</Strong> Junior Cyber Security Analyst Career Path from CISCO Networking Academy </li>
   <li><Strong>24/04/2024</Strong> SQL Injection Attack from EC-Council </li>
@@ -44,6 +44,7 @@ tags: [Jekyll, theme, responsive, blog, template]
   <li> <Strong>2023-2024</Strong>Vice President Tech Tribe Society (Edwardes College Peshawar)</li>
   <li> <Strong>2022-2023</Strong>Cheif Organizer Tech Tribe Society (Edwardes College Peshawar)</li>
   <li> <Strong>2022-2024</Strong>Course Instructor "Penetration Tester' (Edwardes College Peshawar)</li>
+  
 <!--<h2>
 <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recent News:</h2>
 

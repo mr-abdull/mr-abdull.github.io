@@ -31,7 +31,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 
 
 <h2>
- <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Certifications:</h2>
+<a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Certifications:</h2>
  <ul>
   <li><Strong>11/01/2024</Strong> Ethical Hacker from CISCO Networking Academy </li>
   <li><Strong>13/01/2024</Strong> Junior Cyber Security Analyst Career Path from CISCO Networking Academy </li>

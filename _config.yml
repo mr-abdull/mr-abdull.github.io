@@ -31,16 +31,16 @@ links:
   #  url: /research/
  - title: Publications
    url: /publications/
- - title: Scholarships
-   url: /scholarships/
- - title: People
-   url: /people/
- - title: Talks
-   url: /Talks/
+# - title: Scholarships
+ #  url: /scholarships/
+# - title: People
+#   url: /people/
+# - title: Talks
+#   url: /Talks/
  - title: Datasets
    url: /Datasets/
- - title: Teaching
-   url: /Teaching/
+# - title: Teaching
+#   url: /Teaching/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Pakistan/GMT+5

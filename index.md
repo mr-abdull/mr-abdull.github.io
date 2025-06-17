@@ -29,10 +29,24 @@ tags: [Jekyll, theme, responsive, blog, template]
 <br><p><font color="blue">I welcome collaboration opportunities with MS/PhD applicants interested in research areas related to Cybersecurity or Artificial Intelligence.</font>
 </p>
 
+
+<h2>
+ <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Certifications:</h2>
+ <ul>
+  <li><Strong>11/01/2024</Strong> Ethical Hacker from CISCO Networking Academy </li>
+  <li><Strong>13/01/2024</Strong> Junior Cyber Security Analyst Career Path from CISCO Networking Academy </li>
+  <li><Strong>24/04/2024</Strong> SQL Injection Attack from EC-Council </li>
+  <li><Strong>15/05/2025</Strong> Ethical Hacking Essentials (EHE) from EC-Council </li>
+  <h2>
+ <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>HONORS & AWARDS:</h2>
+ <ul>
+  <li> <Strong>2023-2024</Strong>Vice President Tech Tribe Society (Edwardes College Peshawar)</li>
+  <li> <Strong>2022-2023</Strong>Cheif Organizer Tech Tribe Society (Edwardes College Peshawar)</li>
+  <li> <Strong>2022-2024</Strong>Course Instructor "Penetration Tester' (Edwardes College Peshawar)</li>
 <!--<h2>
 <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recent News:</h2>
 
-<ul>
+<!--<ul>
 <li> AI Review [Impact factor: 10.7] has accepted our survey on 3D object recognition. [Sep'24]</li>
 <li> 2x papers are in DICTA [August'24]</li>
 <li> A paper hit on ICPR [August'24]</li>

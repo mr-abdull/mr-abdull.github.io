@@ -1,44 +1,35 @@
 ---
 layout: home2
 title: 
-description: "Saeed Anwar's website"
+description: "Abdul Rehman's website"
 tags: [Jekyll, theme, responsive, blog, template]
 
 
 ---
 
 <h2>
-<a id="Biography-page" class="anchor" href="#biography-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Saeed Anwar Homepage</h2>
+<a id="Biography-page" class="anchor" href="#biography-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Mohammad Abdul Rehman Homepage</h2>
 <div style="text-align: justify; display: block; margin-right: auto;">
 
  
-I am working with the Australian National University (ANU). I am also an Adjunct Assistant Professor at the University of Canberra (UC). 
-
-<br><strong>In academia</strong>, I was a Visiting Fellow at the University of Technology Sydney (UTS), an assistant professor at King Fahad University of Petroleum & Minerals (KFUPM), and a Fellow at JRCAI. I also served at the National University of Computer and Emerging Sciences (NUCES) and Ghulam Ishaq Khan Institute of Engineering Sciences and Technology (GIKI).
-
-
-<br><strong>In industry</strong>, I served as a Research Scientist at Data61, Commonwealth Scientific and Industrial Research Organisation (CSIRO). I was involved in various projects with National ICT Australia (NICTA). I then worked on a medical-related project with Toshiba Medical Visualization Systems Europe (TMVSE) in Scotland and simulated sonar sensors for transparent object detection in Pal Robotics, Barcelona. During my undergraduate studies, I gained experience in technology and research roles, starting with Pakistan Telecommunication Limited (PTCL). 
-
+I am a Penetration Tester and also a Cyber Security Researcher
 
  
 <h2>
 <a id="Biography-page" class="anchor" href="#biography-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Education</h2>
 <div style="text-align: justify; display: block; margin-right: auto;">
 <p>
-<br><strong>2014/05 - 2018/04</strong>, I hold a PhD from the Australian National University, where I studied at the College of Engineering & Computer Science. I conducted doctoral research within the Computer Vision Research Group (CVRG) at Data61 (previously known as NICTA), CSIRO. <br>
-<br><strong>2010/09 - 2012/08</strong>, Prior to my PhD, I pursued a Master's degree in Computer Vision and Robotics (Vibot) through a collaborative program involving the Heriot-Watt University, the University of Girona and the University of Bourgogne. <br>
-<br><strong>2004/09 - 2008/08</strong>,  My academic journey began with a Bachelor of Science in Computer Systems Engineering from the University of Engineering and Technology (UET), Peshawar. <br>  
+<br><strong>2019/09 - 2024/09</strong>, I hold a Bachelors Degree from Edwardes College Peshawar affiliated with University of Peshawar. <br> 
 <hr />
 </p>
 
 <p>
 <h2>
 <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Open Positions:</h2>
-<br><p><font color="blue">I am looking for PhD students and Master students who want to conduct
-research and develop advanced deep learning algorithms for image and video enhancement and restoration, 3D Point Clouds, computational imaging,  computer vision and Machine learning applications.</font>
+<br><p><font color="blue">I welcome collaboration opportunities with MS/PhD applicants interested in research areas related to Cybersecurity or Artificial Intelligence.</font>
 </p>
 
-<h2>
+<!--<h2>
 <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recent News:</h2>
 
 <ul>
@@ -74,10 +65,10 @@ research and develop advanced deep learning algorithms for image and video enhan
 <!--<li> PnP-3D accepted in TPAMI. [Jan'22]</li>-->
 <!-- <li> R<sup>2</sup>Net is now available online in TNNLS. [Dec'21]</li>-->
 <!-- <li> PLCNN accepted in NCAA. [Nov'21]</li>-->
-<li> *Assistant Professor* at University of Canberra. [Oct'21]</li>
+<!--<li> *Assistant Professor* at University of Canberra. [Oct'21]</li>
 <!-- <li> One paper has been accepted by International Conference on 3D Vision. [Oct'21]</li>-->
 <!-- <li> An article is accepted Applied Sciences. [Sep'21]</li>-->
-<li> Guest Editor in IEEE JOE. [Aug'21]</li>
+<!--<li> Guest Editor in IEEE JOE. [Aug'21]</li>
 <!--<li> Article accepted in TIP. [Aug'21]</li>-->
 <!--<li> A paper hit-on TMM. [May'21]</li>-->
 <!--<li> A paper accepted in TPAMI. [Apr'21]</li>-->
@@ -88,7 +79,7 @@ research and develop advanced deep learning algorithms for image and video enhan
 <!-- <li> Paper accepted in Pattern Recognition. [Jan'21]</li>-->
 <!--<li> An article accepted in MVA. [Dec'20]</li>-->
 <!--<li> A paper accepted in WACV. [Nov'20]</li>-->
-<li> *Visiting Fellow* at University of Technology Sydney. [Oct'20]</li>
+<!--<li> *Visiting Fellow* at University of Technology Sydney. [Oct'20]</li>
 <!-- <li> An Oral paper accepted in ICONIP. [Sept'20]</li>-->
 <!--<li> A paper hit-on in IEEE TPAMI. [Aug'20]</li>-->
 <!--<li> A paper accepted in Signal Processing: Image Communication. [July'20]</li>-->
@@ -98,17 +89,17 @@ research and develop advanced deep learning algorithms for image and video enhan
 <!-- <li> A paper accepted in ACM Computing Surveys. [Mar'20]</li>-->
 <!-- <li> Two papers (an Oral and Poster) accepted in CVPR. [Feb'20]</li>-->
 <!-- <li> A paper accepted in Pattern Recognition. [Sept'19]</li>-->
-<li> Appointed as Honorary Lecturer at Australian National University (ANU). [Jul'19]</li>
+<!--<li> Appointed as Honorary Lecturer at Australian National University (ANU). [Jul'19]</li>
 <!-- <li> One paper accepted in ICCV (Oral) 2019. [Jul'19]</li>-->
 <!--<li> One paper accepted in TPAMI 2018. [Jul'18]</li>-->
-<li> Started working at CSIRO. [Apr'18]</li>
+<!--<li> Started working at CSIRO. [Apr'18]</li>
 <!-- <li> Two paper accepted in BMVC 2017, London, UK.  (one oral and one poster). [Jul'17]</li>-->
 <!-- <li> One paper accepted in IEEE TIP. [Jul'17]</li>-->
 <!-- <li> One Paper accepted in ICCV.[Dec'15]</li>-->
 <br>
 <hr/>
 
-<h2>
+<!--<h2>
 <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Codes and Datasets:</h2>
 
 <ul>

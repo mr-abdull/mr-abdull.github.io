@@ -12,7 +12,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 <div style="text-align: justify; display: block; margin-right: auto;">
 
  
-I am a Penetration Tester and also a Cyber Security Researcher
+"I am a Penetration Tester and Cybersecurity Researcher with a strong focus on identifying and mitigating security vulnerabilities in modern systems. My work involves conducting ethical hacking, vulnerability assessments, and security audits to strengthen the defense posture of networks, applications, and infrastructure. As a researcher, I explore emerging threats, attack vectors, and defense mechanisms across domains such as web application security, network security, and malware analysis. I am passionate about contributing to the cybersecurity community through research, collaboration, and continuous learning."
 
  
 <h2>

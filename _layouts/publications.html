@@ -1,0 +1,1952 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+<style>
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</head>
+
+<body class="page">
+<style>
+    /*********************************
+     The list of publication items
+     *********************************/
+/* The list of items */
+.biblist { }
+
+/* The item */
+.biblist li { }
+
+/* You can define custom styles for plstyle field here. */
+
+
+/*************************************
+ The box that contain BibTeX code
+ *************************************/
+div.noshow { display: none; }
+div.bibtex {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	border: 1px solid silver;
+	padding: 0em 1em;
+	background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
+<script type="text/javascript">
+    <!--
+    // Toggle Display of BibTeX
+    function toggleBibtex(articleid) {
+        var bib = document.getElementById('bib_'+articleid);
+        if (bib) {
+            if(bib.className.indexOf('bibtex') != -1) {
+                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+            }
+        } else {
+            return;
+        }
+    }
+-->
+    </script>
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+
+<!----------------------------------------------------------------------------------->
+<!-- Generated from JabRef by PubList by Truong Nghiem at 12:49 on 2016.07.15. -->
+
+<!-------------------------------------------------------------------------------------------->
+<h4 style="margin-bottom:0px;padding-top:10px;">2024</h4>
+
+<!-- Item: Alsaafin2024NRIQA -->
+<li ><p>M. Alsaafin, M. Alsheikh, S. Anwar, M. Usman <br>
+&ldquo;Attention Down-Sampling Transformer, Relative Ranking and Self-Consistency for Blind Image Quality Assessment,&rdquo;<br>
+<i>International conference on image processing </i><b>(ICIP)</b>, 2024.	
+<br />
+<a href="javascript:toggleBibtex('Alsaafin2024NRIQA')">[BibTeX]</a>	
+<a href="https://arxiv.org/abs/2409.07115">[arXiv]</a>
+<a href="https://github.com/mas94/ADTRS">[Project Page]</a>	
+<!--<a href="">[Official PDF]</a>-->	
+</p>
+<div id="bib_Alsaafin2024NRIQA" class="bibtex noshow">
+<pre>
+@InProceedings{Alsaafin2024NRIQA,
+  title={Attention Down-Sampling Transformer, Relative Ranking and Self-Consistency for Blind Image Quality Assessment}, 
+  author={Mohammed Alsaafin and Musab Alsheikh and Saeed Anwar and Muhammad Usman},
+  booktitle={International conference on image processing (ICIP)},
+  year={2024},
+  organization={IEEE}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Qian2024AllWeatherNet -->
+<li ><p> C. Qian, M. Rezaei, S. Anwar, W. Li, T. Hussain, M. Azarmi and W. Wang <br>
+&ldquo;AllWeatherNet: Unified Image enhancement for autonomous driving under adverse weather and lowlight-conditions,&rdquo;<br>
+<i>International Conference on Pattern Recognition </i><b>(ICPR)</b>, 2024.	
+<br />
+<a href="javascript:toggleBibtex('Qian2024AllWeatherNet')">[BibTeX]</a>	
+<a href="https://arxiv.org/abs/2409.02045">[arXiv]</a>
+<a href="https://github.com/Jumponthemoon/AllWeatherNet">[Project Page]</a>	
+<!--<a href="">[Official PDF]</a>-->	
+</p>
+<div id="bib_Qian2024AllWeatherNet" class="bibtex noshow">
+<pre>
+@InProceedings{Qian2024AllWeatherNet,
+  title={AllWeatherNet:Unified Image enhancement for autonomous driving under adverse weather and lowlight-conditions}, 
+  author={Chenghao Qian and Mahdi Rezaei and Saeed Anwar and Wenjing Li and Tanveer Hussain and Mohsen Azarmi and Wei Wang},
+  booktitle={International Conference on Pattern Recognition (ICPR)},
+  year={2024},
+  organization={IEEE}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: he2024deeplearningbased3d -->
+<li ><p> Y. He, H. Yu, X. Liu, Z. Yang, W. Sun, S. Anwar and A. Mian <br>
+&ldquo;Deep Learning Based 3D Segmentation: A Survey,&rdquo;<br>
+<i>arXiv e-prints</i><b> </b>, 2024.	
+<br />
+<a href="javascript:toggleBibtex('he2024deeplearningbased3d')">[BibTeX]</a>	
+<a href="https://arxiv.org/pdf/2103.05423">[arXiv]</a>
+<!--<a href="">[Official PDF]</a>-->	
+</p>
+<div id="bib_he2024deeplearningbased3d" class="bibtex noshow">
+<pre>
+@article{he2024deeplearningbased3d,
+      title={Deep Learning Based 3D Segmentation: A Survey}, 
+      author={Yong He and Hongshan Yu and Xiaoyan Liu and Zhengeng Yang and Wei Sun and Saeed Anwar and Ajmal Mian},
+      year={2024},
+      eprint={2103.05423},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2103.05423}, 
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: alzahrani20243DSurvey -->
+<li ><p> M. Alzahrani, M. Usman, S. Kammoun, S. Anwar and T. Helmy <br>
+&ldquo;Deep Models for Multi-View 3D Object Recognition: A Review,&rdquo;<br>
+<i>Artificial Intelligence Review </i><b>(AIR)</b>, 2024.	
+<br />
+<a href="javascript:toggleBibtex('alzahrani20243DSurvey')">[BibTeX]</a>	
+<a href="https://arxiv.org/abs/2404.15224">[arXiv]</a>
+<!--<a href="">[Official PDF]</a>-->	
+</p>
+<div id="bib_alzahrani20243DSurvey" class="bibtex noshow">
+<pre>
+@article{alzahrani20243DSurvey,
+      title={Deep Models for Multi-View 3D Object Recognition: A Review}, 
+      author={Mona Alzahrani and Muhammad Usman and Salma Kammoun and Saeed Anwar and Tarek Helmy},
+      journal={Artificial Intelligence Review},
+      volume={},
+      pages={},
+      year={2024},
+      publisher={Springer}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Alzahrani2024Selective -->
+<li ><p> M. Alzahrani, M. Usman, S. Anwar, and T. Helmy <br>
+&ldquo;Selective Multi-View Deep Model for 3D Object Classification,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition Workshops</i><b> (CVPRW)</b>, 2024.
+<br />
+<a href="javascript:toggleBibtex('Alzahrani2024Selective')">[BibTeX]</a>	
+<a href="https://openaccess.thecvf.com/content/CVPR2024W/3DMV/papers/Alzahrani_Selective_Multi-View_Deep_Model_for_3D_Object_Classification_CVPRW_2024_paper.pdf">[Official PDF]</a>
+<a href="https://openaccess.thecvf.com/content/CVPR2024W/3DMV/supplemental/Alzahrani_Selective_Multi-View_Deep_CVPRW_2024_supplemental.pdf">[Supp]</a>
+<a href="https://github.com/Mona-Alzahrani/SelectiveMV">[Project Page]</a>	
+</p>
+<div id="bib_Alzahrani2024Selective" class="bibtex noshow">
+<pre>
+@InProceedings{Alzahrani2024Selective,
+    author    = {Alzahrani, Mona and Usman, Muhammad and Anwar, Saeed and Helmy, Tarek},
+    title     = {Selective Multi-View Deep Model for 3D Object Classification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {728-736}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: asad2024improved -->
+<li ><p> M. H. Asad, S. Anwar and A. Bais <br>
+&ldquo;Improved Crop and Weed Detection with Diverse Data Ensemble Learning,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition Workshops</i><b> (CVPRW), Oral</b>, 2024.
+<br />
+<a href="javascript:toggleBibtex('asad2024improved')">[BibTeX]</a>
+<a href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/papers/Asad_Improved_Crop_and_Weed_Detection_with_Diverse_Data_Ensemble_Learning_CVPRW_2024_paper.pdf">[Official PDF]</a>
+<a href="https://arxiv.org/pdf/2310.01055.pdf">[arXiv]</a>
+</p>
+<div id="bib_asad2024improved" class="bibtex noshow">
+<pre>
+@InProceedings{asad2024improved,
+    author    = {Asad, Muhammad Hamza and Anwar, Saeed and Bais, Abdul},
+    title     = {Improved Crop and Weed Detection with Diverse Data Ensemble Learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {5336-5345}
+
+</pre>
+</div>
+</li>
+	    
+<!-- Item: rahman2024defan -->
+<li ><p> A. B. M. Ashikur Rahman, Saeed Anwar, M. Usman and A. Mian <br>
+&ldquo;DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation,&rdquo;<br>
+<i>arXiv e-prints</i><b> </b>, 2024.	
+<br />
+<a href="javascript:toggleBibtex('rahman2024defan')">[BibTeX]</a>	
+<a href="https://arxiv.org/pdf/2406.09155">[arXiv]</a>
+<a href="https://github.com/ashikiut/DefAn">[Project Page]</a>
+</p>
+<div id="bib_rahman2024defan" class="bibtex noshow">
+<pre>
+@article{rahman2024defan,
+      title={DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation}, 
+      author={A B M Ashikur Rahman and Saeed Anwar and Muhammad Usman and Ajmal Mian},
+      year={2024},
+      eprint={2406.09155},
+      archivePrefix={arXiv},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: bajbaa2024birdseye -->
+<li ><p> K. Bajbaa, M. Usman, S. Anwar, I. Radwan and A. Bais <br>
+&ldquo;Bird's-Eye View to Street-View: A Survey,&rdquo;<br>
+<i>arXiv e-prints</i><b> </b>, 2024.	
+<br />
+<a href="javascript:toggleBibtex('bajbaa2024birdseye')">[BibTeX]</a>	
+<a href="https://arxiv.org/pdf/2405.08961">[arXiv]</a>
+</p>
+<div id="bib_bajbaa2024birdseye" class="bibtex noshow">
+<pre>
+@article{bajbaa2024birdseye,
+      title={Bird's-Eye View to Street-View: A Survey}, 
+      author={Khawlah Bajbaa and Muhammad Usman and Saeed Anwar and Ibrahim Radwan and Abdul Bais},
+      year={2024},
+      eprint={2405.08961},
+      archivePrefix={arXiv}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: hasanaath2024fsbin -->
+<li ><p>A. A. Hasanaath, H. Luqman, R. Katib and S. Anwar <br>
+&ldquo;FSBI: Deepfakes Detection with Frequency Enhanced Self-Blended Images,&rdquo;<br>
+<i>arXiv e-prints</i><b> </b>, 2024.	
+<br />
+<a href="javascript:toggleBibtex('hasanaath2024fsbi')">[BibTeX]</a>	
+<a href="https://arxiv.org/pdf/2406.08625">[arXiv]</a>
+<a href="https://github.com/gufranSabri/FSBI">[Project Page]</a>	
+</p>
+<div id="bib_hasanaath2024fsbi" class="bibtex noshow">
+<pre>
+@article{hasanaath2024fsbi,
+      title={FSBI: Deepfakes Detection with Frequency Enhanced Self-Blended Images}, 
+      author={Ahmed Abul Hasanaath and Hamzah Luqman and Raed Katib and Saeed Anwar},
+      year={2024},
+      eprint={2406.08625},
+      archivePrefix={arXiv}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Hassanin2024attention -->
+<li ><p> M. Hassanin, S. Anwar, I. Radwan, F. S. Khan, A. Mian <br>
+&ldquo;Visual Attention Methods in Deep Learning: An In-Depth Survey,&rdquo;<br>
+<i>Information Fusion</i><b> (IF)</b>, 2024.	
+<br />
+<a href="javascript:toggleBibtex('Hassanin2024attention')">[BibTeX]</a>	
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S1566253524001957">[Official PDF]</a>
+<a href="https://arxiv.org/pdf/2204.07756">[arXiv]</a>
+</p>
+<div id="bib_Hassanin2024attention" class="bibtex noshow">
+<pre>
+@article{Hassanin2024attention,
+  title={Visual attention methods in deep learning: An in-depth survey},
+  author={Hassanin, Mohammed and Anwar, Saeed and Radwan, Ibrahim and Khan, Fahad Shahbaz and Mian, Ajmal},
+  journal={Information Fusion},
+  pages={102417},
+  year={2024},
+  publisher={Elsevier}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Qin2024PSGNN -->
+<li ><p> Y. Zhang, Z. Qin, S. Anwar, D. Kim, Y. Liu, P. Ji, and T. Gedeon <br>
+&ldquo;Position-Sensing Graph Neural Networks: Proactively Learning Nodes Relative Positions,&rdquo;<br>
+<i> IEEE Transactions on Neural Networks and Learning Systems </i><b>(TNNLS)</b>, 2024.
+
+<br />
+<a href="javascript:toggleBibtex('Qin2024PSGNN')">[BibTeX]</a>	
+<a href="https://ieeexplore.ieee.org/document/10478451/">[TNNLS]</a>
+<a href="https://arxiv.org/pdf/2105.11346.pdf">[arXiv]</a>
+<a href="https://github.com/ZhenyueQin/PSGNN">[Project Page]</a>
+
+</p>
+<div id="bib_Qin2024PSGNN" class="bibtex noshow">
+<pre>
+@article{Qin2024PSGNN,
+  author={Zhang, Yiqun and Qin, Zhenyue and Anwar, Saeed and Kim, Dongwoo and Liu, Yang and Ji, Pan and Gedeon, Tom},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Position-Sensing Graph Neural Networks: Proactively Learning Nodes Relative Positions}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-8},
+}
+</pre>
+</div>
+</li>   
+	    
+<!-- Item: munir2024investigation-->
+<li ><p>A. Munir, A. J. Siddiqui, and S. Anwar <br>
+&ldquo;Investigation of UAV Detection in Images With Complex Backgrounds and Rainy Artifacts,&rdquo;<br>
+<i>IEEE/CVF Winter Conference on Applications of Computer Vision</i><b> (WACV)</b>, Workshops, 2024.
+<br />
+<a href="javascript:toggleBibtex('munir2024investigation')">[BibTeX]</a>
+<a href="https://openaccess.thecvf.com/content/WACV2024W/RWS/papers/Munir_Investigation_of_UAV_Detection_in_Images_With_Complex_Backgrounds_and_WACVW_2024_paper.pdf">[WACV Version]</a>
+<a href="https://arxiv.org/abs/2305.16450">[arXiv]</a>
+<a href="https://github.com/AdnanMunir294/UAVD-CBRA">[Project Page]</a>
+
+</p>
+<div id="bib_munir2024investigation" class="bibtex noshow">
+<pre>
+@article{munir2024investigation,
+  title={Investigation of UAV Detection in Images With Complex Backgrounds and Rainy Artifacts},
+  author={Munir, Adnan and Siddiqui, Abdul Jabbar and Anwar, Saeed},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={221--230},
+  year={2024}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Humza2024Aug-->
+<li ><p>H. Naveed, S. Anwar, M. Hayat, K. Javed, and A. Mian <br>
+&ldquo;Survey: Image Mixing and Deleting for Data Augmentation,&rdquo;<br>
+<i>Journal Engineering Applications of Artificial Intelligence</i><b> (EAAI)</b>, 2024.
+<br />
+<a href="javascript:toggleBibtex('Humza2024Aug')">[BibTeX]</a>
+<a href="https://arxiv.org/pdf/2106.07085">[arXiv]</a>
+<a href="https://github.com/humza909/Survery-Image-Mixing-and-Deleting-for-Data-Augmentation">[Project Page]</a>
+
+</p>
+<div id="bib_Humza2024Aug" class="bibtex noshow">
+<pre>
+@article{Humza2023Aug,
+  title = {Survey: Image Mixing and Deleting for Data Augmentation},
+  author = {Naveed, Humza and Anwar, Saeed and Hayat, Munawar and Javed, Kashif and Mian, Ajmal},  
+  publisher = {Journal Engineering Applications of Artificial Intelligence},
+  year={2024}
+}
+</pre>
+</div>
+</li>
+	    
+<h4 style="margin-bottom:0px;padding-top:10px;">2023</h4>
+
+<!-- Item: Anwar2023Systematic -->
+<li ><p>S. Anwar, N. Barnes, and L. Petersson<br>
+&ldquo;A Systematic Evaluation: Fine-Grained CNN vs. Traditional CNN Classifiers,&rdquo;<br>
+<i>Electronics</i><b></b>, 2023.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2023Systematic')">[BibTeX]</a>
+<a href="https://arxiv.org/abs/2003.11154">[arXiv]</a>
+<a href="https://www.mdpi.com/2079-9292/12/23/4877/pdf?version=1701666853">[Electronic Version]</a>
+<a href="https://github.com/saeed-anwar/FGSE">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2023Systematic" class="bibtex noshow">
+<pre>
+@article{Anwar2023Systematic,
+ title={A Systematic Evaluation: Fine-Grained CNN vs. Traditional CNN Classifiers},
+ author={Saeed Anwar and Nick Barnes and Lars Petersson},
+ journal = {Electronics},
+ volume = {12},
+ year = {2023},
+ number = {23},
+ article-number = {4877},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Humza2023LLMs -->
+<li ><p>H. Naveed, A. U. Khan, S. Qiu, M. Saqib, S. Anwar, M. Usman, N. Barnes, and A. Mian <br>
+&ldquo;A Comprehensive Overview of Large Language Models,&rdquo;<br>
+<i>ArXiv e-prints </i><b></b>, 2023.
+
+<br />
+<a href="javascript:toggleBibtex('Humza2023LLMs')">[BibTeX]</a>
+<a href="https://arxiv.org/abs/2307.06435">[arXiv]</a>
+<a href="https://github.com/humza909/LLM_Survey">[Project Page]</a>
+
+</p>
+<div id="bib_Humza2023LLMs" class="bibtex noshow">
+<pre>
+@article{Humza2023LLMs,
+  title = {A Comprehensive Overview of Large Language Models},
+  author={Humza Naveed and Asad Ullah Khan and Shi Qiu and Muhammad Saqib and Saeed Anwar and Muhammad Usman and Nick Barnes and Ajmal Mian},  
+  publisher = {arXiv},
+  year={2023}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Ruikai2023P2C -->	    
+<li ><p>R. Cui, S. Qiu, S. Anwar, J. Liu, C. Xing, J. Zhang and N. Barnes <br>
+&ldquo;P2C: Self-Supervised Point Cloud Completion from Single Partial Clouds,&rdquo;<br>
+<i>IEEE International Conference on Computer Vision</i><b> (ICCV)</b>, 2023
+
+<br />
+<a href="javascript:toggleBibtex('Ruikai2023P2C')">[BibTeX]</a>
+<a href="https://arxiv.org/abs/2307.14726">[arXiv]</a>
+<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cui_P2C_Self-Supervised_Point_Cloud_Completion_from_Single_Partial_Clouds_ICCV_2023_paper.pdf">[ICCV Version]</a> 
+<a href="https://github.com/CuiRuikai/Partial2Complete">[Project Page]</a>
+
+</p>
+<div id="bib_Ruikai2023P2C" class="bibtex noshow">
+<pre>
+@InProceedings{Ruikai2023P2C,
+author = {Ruikai Cui and Shi Qiu and Saeed Anwar and Jiawei Liu and Chaoyue Xing and Jing Zhang and Nick Barnes},
+title = {P2C: Self-Supervised Point Cloud Completion from Single Partial Clouds},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+year = {2023}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Ibrahim2023UnLoc -->
+<li ><p>M. Ibrahim,  N. Akhtar,  S. Anwar, and  A. Mian <br>
+&ldquo;UnLoc: A Universal Localization Method for LiDAR, RADAR and/or Camera Input,&rdquo;<br>
+<i>IEEE/RSJ International Conference on Intelligent Robots and Systems </i><b> (IROS)</b>, 2023.
+
+<br />
+<a href="javascript:toggleBibtex('Ibrahim2023UnLoc')">[BibTeX]</a>
+<a href="https://arxiv.org/abs/2307.00741">[arXiv]</a>
+<a href="https://ieeexplore.ieee.org/abstract/document/10342046">[IROS Version]</a>
+<a href="https://github.com/IbrahimUWA/UnLoc/">[Project Page]</a>
+
+</p>
+<div id="bib_Ibrahim2023UnLoc" class="bibtex noshow">
+<pre>
+@article{Ibrahim2023UnLoc,
+  title={UnLoc: A Universal Localization Method for LiDAR, RADAR and/or Camera Input},
+  author={Ibrahim, Muhammad and Akhtar, Naveed and Anwar, Saeed and Mian, Ajmal},
+  journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2023}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Zainy2023SSID -->
+<li ><p> Z. M. Malakan,  S. Anwar,  G. M. Hassan, and  A. Mian <br>
+&ldquo;Sequential Vision to Language as Story: A Storytelling Dataset and Benchmarking,&rdquo;<br>
+<i>IEEE Access </i>, 2023.
+
+<br />
+<a href="javascript:toggleBibtex('Zainy2023SSID')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10177150">[IEEE Version]</a>
+<a href="https://ieee-dataport.org/documents/sequential-storytelling-image-dataset-ssid">[Project Page]</a>
+
+</p>
+<div id="bib_Zainy2023SSID" class="bibtex noshow">
+<pre>
+@article{Zainy2023SSID,
+  author={Malakan, Zainy M. and Anwar, Saeed and Hassan, Ghulam Mubashar and Mian, Ajmal},
+  journal={IEEE Access}, 
+  title={Sequential Vision to Language as Story: A Storytelling Dataset and Benchmarking}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/ACCESS.2023.3293646}}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Ibrahim2023SAT3D -->
+<li ><p>M. Ibrahim,  N. Akhtar,  S. Anwar, and  A. Mian <br>
+&ldquo;SAT3D: Slot Attention Transformer for 3D Point Cloud Semantic Segmentation,&rdquo;<br>
+<i>IEEE Transactions on Intelligent Transportation Systems </i><b> (T-ITS)</b>, 2023.
+
+<br />
+<a href="javascript:toggleBibtex('Ibrahim2023SAT3D')">[BibTeX]</a>
+<a href="">[arXiv]</a>
+<a href="https://github.com/saeed-anwar/SAT3D">[Project Page]</a>
+
+</p>
+<div id="bib_Ibrahim2023SAT3D" class="bibtex noshow">
+<pre>
+@article{Ibrahim2023SAT3D,
+  title={SAT3D: Slot Attention Transformer for 3D Point Cloud Semantic Segmentation},
+  author={Ibrahim, Muhammad and Akhtar, Naveed and Anwar, Saeed and Mian, Ajmal},
+  journal={IEEE Transactions on Intelligent Transportation Systems (T-ITS)},
+  year={2023}
+}
+</pre>
+</div>
+</li>
+	    
+    
+<!-- Item: Ibrahim2023slice -->
+<li ><p>M. Ibrahim,  N. Akhtar,  S. Anwar, M. Wise and  A. Mian <br>
+&ldquo;Slice Transformer and Self-supervised Learning for 6DoF Localization 
+in 3D Point Cloud Maps,&rdquo;<br>
+<i>IEEE International Conference on Robotics and Automation </i><b> (ICRA)</b>, 2023.
+
+<br />
+<a href="javascript:toggleBibtex('Ibrahim2023slice')">[BibTeX]</a>
+<a href="https://arxiv.org/abs/2301.08957">[arXiv]</a>
+<a href="https://github.com/ibrahimUWA/slice">[Project Page]</a>
+
+</p>
+<div id="bib_Ibrahim2023slice" class="bibtex noshow">
+<pre>
+@article{Ibrahim2023slice,
+  title={Slice Transformer and Self-supervised Learning for 6DoF Localization in 3D Point Cloud Maps},
+  author={Ibrahim, Muhammad and Akhtar, Naveed and Anwar, Saeed and Wise, Michael and Mian, Ajmal},
+  journal={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2023}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: hong2022pointcam -->
+<li ><p>J. Hong, S. Qiu, W. Li, S. Anwar, M. Harandi, N. Barnes, L. Petersson <br>
+&ldquo;PointCaM: Cut-and-Mix for Open-Set Point Cloud Analysis,&rdquo;<br>
+<i>ArXiv e-prints </i><b></b>, 2023.
+
+<br />
+<a href="javascript:toggleBibtex('hong2022pointcam')">[BibTeX]</a>
+<a href="https://arxiv.org/pdf/2212.02011">[arXiv]</a>
+<a href="https://github.com/ShiQiu0419/pointcam">[Project Page]</a>
+
+</p>
+<div id="bib_hong2022pointcam" class="bibtex noshow">
+<pre>
+@article{hong2022pointcam,
+  title={PointCaM: Cut-and-Mix for Open-Set Point Cloud Analysis},
+  author={Hong, Jie and Qiu, Shi and Li, Weihao and Anwar, Saeed and Harandi, Mehrtash and Barnes, Nick and Petersson, Lars},
+  journal={arXiv preprint arXiv:2212.02011},
+  year={2022}
+}
+</pre>
+</div>
+</li>
+	    
+	    
+<h4 style="margin-bottom:0px;padding-top:10px;">2022</h4>
+<!-- Item: Liu2022FDN -->
+<li ><p> Y. Liu, S. Anwar, Z. Qin, P. Ji, S. Caldwell and T. Gedeon <br>
+&ldquo;Disentangling Noise from Images: A Flow-Based Image Denoising Neural Network,&rdquo;<br>
+<i>Sensors</i><b></b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Liu2022FDN')">[BibTeX]</a>
+<a href="https://www.mdpi.com/1424-8220/22/24/9844">[Official PDF]</a>	
+<a href="https://arxiv.org/pdf/2105.04746.pdf">[arXiv]</a>
+<a href="https://github.com/Yang-Liu1082/FDN">[Project Page]</a>
+
+</p>
+<div id="bib_Liu2022FDN" class="bibtex noshow">
+<pre>
+@article{Liu2022FDN,
+  title={Disentangling Noise from Images: A Flow-Based Image Denoising Neural Network},
+  author={Liu, Yang and Anwar, Saeed and Qin, Zhenyue and Ji, Pan and Caldwell, Sabrina and Gedeon, Tom},
+  journal = {Sensors},
+  volume = {22},
+  year = {2022},
+  number = {24},
+  article-number = {9844},
+  PubMedID = {36560213},
+  issn = {1424-8220}
+}
+</pre>
+</div>
+</li>
+	    
+    
+<!-- Item: Ruikai2022EBM -->
+<li ><p>R. Cui, S. Qiu, S. Anwar, J. Zhang and N. Barnes<br>
+&ldquo;Energy-Based Residual Latent Transport for Unsupervised Point Cloud Completion,&rdquo;<br>
+<i>British Machine Vision Conference</i><b>(BMVC)</b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Ruikai2022EBM')">[BibTeX]</a>
+<a href="https://bmvc2022.mpi-inf.mpg.de/0048.pdf">[BMVC]</a>
+<a href="https://bmvc2022.mpi-inf.mpg.de/0048_supp.zip">[Supp]</a>
+<a href="https://arxiv.org/pdf/2211.06820">[arXiv]</a>
+<a href="https://bmvc2022.mpi-inf.mpg.de/0048_poster.pdf">[Poster]</a>
+<a href="https://bmvc2022.mpi-inf.mpg.de/0048_video.mp4">[Video]</a>	
+<a href="https://github.com/CuiRuikai/Latent-Transport-UPCN">[Project Page]</a>
+
+</p>
+<div id="bib_Ruikai2022EBM" class="bibtex noshow">
+<pre>
+@InProceedings{Ruikai2022EBM,
+      title={Energy-Based Residual Latent Transport for Unsupervised Point Cloud Completion}, 
+      author={Ruikai Cui and Shi Qiu and Saeed Anwar and Jing Zhang and Nick Barnes},
+      booktitle={British Machine Vision Conference (BMVC)},
+      year={2022}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Shi2022PUTransformer -->
+<li ><p>S. Qiu, S. Anwar and N. Barnes<br>
+&ldquo;PU-Transformer: Point Cloud Upsampling Transformer,&rdquo;<br>
+<i>Asian Conference on Computer Vision </i><b>(ACCV)</b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Shi2022PUTransformer')">[BibTeX]</a>
+<a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Qiu_PU-Transformer_Point_Cloud_Upsampling_Transformer_ACCV_2022_paper.pdf">[ACCV]</a>
+<a href="https://arxiv.org/pdf/2111.12242.pdf">[arXiv]</a>
+<a href="https://openaccess.thecvf.com/content/ACCV2022/supplemental/Qiu_PU-Transformer_Point_Cloud_ACCV_2022_supplemental.pdf">[Supp]</a>
+<a href="https://github.com/ShiQiu0419/PU-Transformer/blob/main/accv2022_poster.pdf">[Poster]</a>
+<a href="https://drive.google.com/file/d/1oTbEWbB9xkrbEiOqof1tG_U1RAAJ5CeN/view?usp=share_link">[PPT]</a>
+<a href="https://github.com/ShiQiu0419/PU-Transformer">[Project Page]</a>
+
+</p>
+<div id="bib_Shi2022PUTransformer" class="bibtex noshow">
+<pre>
+@InProceedings{Shi2021PUTransformer,
+      title={PU-Transformer: Point Cloud Upsampling Transformer}, 
+      author={Shi Qiu and Saeed Anwar and Nick Barnes},
+      booktitle={ACCV},
+      year={2022}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item:qin2022leveraging -->
+<li ><p> Z. Qin, Y. Liu, P. Ji, D. Kim, L. Wang, B. McKay, S. Anwar and T. Gedeon <br>
+&ldquo;Fusing Higher-Order Features in Graph Neural Networks for Skeleton-Based Action Recognition,&rdquo;<br>
+<i> IEEE Transactions on Neural Networks and Learning Systems </i><b>(TNNLS)</b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('qin2022leveraging')">[BibTeX]</a>	
+<a href="https://arxiv.org/pdf/2105.01563.pdf">[arXiv]</a>
+<a href="https://github.com/ZhenyueQin/Angular-Skeleton-Encoding">[Project Page]</a>
+
+</p>
+<div id="bib_qin2022leveraging" class="bibtex noshow">
+<pre>
+@article{qin2022leveraging,
+  title={Leveraging Third-Order Features in Skeleton-Based Action Recognition},
+  author={Qin, Zhenyue and Liu, Yang and Ji, Pan and Kim, Dongwoo and Wang, Lei and McKay, Bob and Anwar, Saeed and Gedeon, Tom},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2022}
+}
+</pre>
+</div>
+</li>	
+
+<!-- Item:Anwar2022lowCost -->
+<li ><p> A. Anwar, H. Anwar, and S. Anwar <br>
+&ldquo;Towards Low-Cost Classification for Novel Fine-Grained Datasets,&rdquo;<br>
+<i> Electronics</i><b></b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2022lowCost')">[BibTeX]</a>	
+<a href="https://www.mdpi.com/2079-9292/11/17/2701">[Official PDF]</a>
+<a href="https://github.com/hafeez-anwar/FGBR">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2022lowCost" class="bibtex noshow">
+<pre>
+@article{Anwar2022lowCost,
+  title={Towards Low-Cost Classification for Novel Fine-Grained Datasets},
+  author={Anwar, Abbas and Anwar, Hafeez and Anwar, Saeed},
+  journal={Electronics},
+  year={2022}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Han2022CWR -->
+<li ><p>J. Han, M. Shoeiby, T. Malthus, E. Botha, J. Anstee, S. Anwar, R. Wei, M. A. Armin, H. Li, and L. Petersson <br>
+&ldquo;Underwater Image Restoration via Contrastive Learning and a Real-world Dataset,&rdquo;<br>
+<i>Remote Sensing</i><b> (RS)</b>, 2022
+	
+<br />
+<a href="javascript:toggleBibtex('Han2022CWR')">[BibTeX]</a>
+<a href="https://www.mdpi.com/2072-4292/14/17/4297">[Official PDF]</a>
+<a href="https://arxiv.org/pdf/2106.10718.pdf">[arXiv]</a>
+<a href="https://github.com/JunlinHan/CWR">[Project Page]</a>
+
+</p>
+<div id="bib_Han2022CWR" class="bibtex noshow">
+<pre>
+@article{Han2022CWR,
+      title={Underwater Image Restoration via Contrastive Learning and a Real-world Dataset}, 
+      author={Junlin Han and Mehrdad Shoeiby and Tim Malthus and Elizabeth Botha and Janet Anstee and Saeed Anwar and Ran Wei and Mohammad Ali Armin and Hongdong Li and Lars Petersson},
+      journal={Remote Sensing},
+      year={2022}
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: Qin2022Strengthening -->
+<li ><p>Z. Qin, P. Ji, D. Kim, Y. Liu, S. Anwar, and T. Gedeon <br>
+&ldquo;Strengthening Skeletal Action Recognizers via Leveraging Temporal Patterns,&rdquo;<br>
+<i>European Conference on Computer Vision Workshops </i><b>(ECCVw)</b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Qin2022Strengthening')">[BibTeX]</a>
+<a href="">[Official PDF]</a>
+<a href="https://arxiv.org/pdf/2205.14405">[arXiv]</a>
+<a href="">[Project Page]</a>
+
+</p>
+<div id="bib_Qin2022Strengthening" class="bibtex noshow">
+<pre>
+@InProceedings{Qin2022Strengthening,
+  title={Strengthening Skeletal Action Recognizers via Leveraging Temporal Patterns},
+  author={Qin, Zhenyue and Kim, Dongwoo and Liu, Yang and Anwar, Saeed and Gedeon, Tom},
+  booktitle={European Conference on Computer Vision Workshops},
+  year={2022}
+}
+</pre>
+</div>
+</li>
+	    
+	    
+<!-- Item: Anwar2022COVID19Detect -->
+<li ><p>M. Saqib, A. Anwar, S. Anwar, L. Petersson, N. Sharma, and M. Blumenstein <br>
+&ldquo;COVID19 detection from Radiographs: Is Deep Learning able to handle the crisis?,&rdquo;<br>
+<i>Signals</i><b></b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2022COVID19Detect')">[BibTeX]</a>
+<a href="https://www.mdpi.com/2624-6120/3/2/19">[Official PDF]</a>
+<a href="https://www.preprints.org/manuscript/202006.0189/v1/download">[arXiv]</a>
+<a href="https://github.com/saeed-anwar/COVID19-Baselines">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2022COVID19Detect" class="bibtex noshow">
+<pre>
+@article{Anwar2022COVID19Detect,
+  title={COVID-19 Detection from Radiographs: Is Deep Learning Able to Handle the Crisis?},
+  author={Saqib, Muhammad and Anwar, Abbas and Anwar, Saeed and Petersson, Lars and Sharma, Nabin and Blumenstein, Michael},
+  journal={Signals},
+  volume={3},
+  number={2},
+  pages={296--312},
+  year={2022}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Qin2022ANUBIS -->	    
+<li ><p>Z. Qin, Y. Liu, M. Perera, T. Gedeon, P. Ji, D. Kim, S. Anwar <br>
+&ldquo;ANUBIS: Skeleton Action Recognition Dataset, Review, and Benchmark,&rdquo;<br>
+<i>ArXiv e-prints</i><b></b>, 2022.	
+<br />
+<a href="javascript:toggleBibtex('Qin2022ANUBIS')">[BibTeX]</a>	
+<a href="https://arxiv.org/abs/2205.02071">[arXiv]</a>
+<a href="http://hcc-workshop.anu.edu.au/webs/anu101/home">[Project Page]</a>
+</p>
+<div id="bib_Qin2022ANUBIS" class="bibtex noshow">
+<pre>
+@article{Qin2022ANUBIS,
+  title={ANUBIS: Skeleton Action Recognition Dataset, Review, and Benchmark},
+  author={Qin, Zhenyue and Liu, Yang and Perera, Madhawa and Gedeon, Tom and Ji, Pan and Kim, Dongwoo and Anwar, Saeed},
+  journal={arXiv preprint arXiv:2205.02071},
+  year={2022}
+}
+</pre>
+</div>
+</li>
+	
+	    
+	    
+<!-- Item: Chunle2022Dehaze -->
+<li ><p> C. Guo, Q. Yan, S. Anwar, R. Cong, W. Ren, and C. Li<br>
+&ldquo;Image Dehazing Transformer with Transmission-Aware 3D Position Embedding,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition </i><b> (CVPR)</b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Chunle2022Dehaze')">[BibTeX]</a>	
+<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Image_Dehazing_Transformer_With_Transmission-Aware_3D_Position_Embedding_CVPR_2022_paper.pdf">[CVPR]</a>
+<a href="https://li-chongyi.github.io/Proj_DeHamer.html">[Project Page]</a>
+
+</p>
+<div id="bib_Chunle2022Dehaze" class="bibtex noshow">
+<pre>
+@InProceedings{Chunle2022Dehaze,
+    author    = {Guo, Chun-Le and Yan, Qixin and Anwar, Saeed and Cong, Runmin and Ren, Wenqi and Li, Chongyi},
+    title     = {Image Dehazing Transformer With Transmission-Aware 3D Position Embedding},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {5812-5820}
+}
+</pre>
+</div>
+</li> 
+
+<!-- Item: Hussain2022Pyramidal -->
+<li ><p> T. Hussain, A. Anwar, S. Anwar, L. Petersson, S. W. Baik
+<br>
+&ldquo;Pyramidal Attention for Saliency Detection,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition Workshops</i><b> (CVPRW)</b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Hussain2022Pyramidal')">[BibTeX]</a>	
+<a href="https://openaccess.thecvf.com/content/CVPR2022W/FaDE-TCV/papers/Hussain_Pyramidal_Attention_for_Saliency_Detection_CVPRW_2022_paper.pdf">[CVPR]</a>
+<a href="https://arxiv.org/pdf/2204.06788">[arXiv]</a>
+<a href="https://github.com/tanveer-hussain/EfficientSOD2">[Project Page]</a>
+
+</p>
+<div id="bib_Hussain2022Pyramidal" class="bibtex noshow">
+<pre>
+@InProceedings{Hussain2022Pyramidal,
+    author    = {Hussain, Tanveer and Anwar, Abbas and Anwar, Saeed and Petersson, Lars and Baik, Sung Wook},
+    title     = {Pyramidal Attention for Saliency Detection},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {2878-2888}
+}
+</pre>
+</div>
+</li> 
+	    
+<!-- Item: Liang2022DRT -->
+<li ><p> Y. Liang, S. Anwar, Y. Liu<br>
+&ldquo;DRT: A Lightweight Single Image Deraining Recursive Transformer,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition Workshops</i><b> (CVPRW)</b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Liang2022DRT')">[BibTeX]</a>	
+<a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Liang_DRT_A_Lightweight_Single_Image_Deraining_Recursive_Transformer_CVPRW_2022_paper.pdf">[CVPR]</a>
+<a href="https://arxiv.org/abs/2204.11385">[arXiv]</a>
+<a href="https://github.com/YC-Liang/DRT">[Project Page]</a>
+
+</p>
+<div id="bib_Liang2022DRT" class="bibtex noshow">
+<pre>
+@InProceedings{Hussain2022Pyramidal,
+    author    = {Liang, Yuanchu and Anwar, Saeed and Liu, Yang},
+    title     = {DRT: A Lightweight Single Image Deraining Recursive Transformer},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {589-598}
+}
+</pre>
+</div>
+</li> 
+	
+	
+<!-- Item: Lu2022DA -->
+<li ><p> K. Lu, N. Barnes,  S. Anwar and L. Zheng<br>
+&ldquo;Depth Completion Auto-Encoder,&rdquo;<br>
+<i> IEEE/CVF Winter Conference on Applications of Computer Vision</i><b> (WACV)</b> Workshops, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Lu2022DA')">[BibTeX]</a>	
+<a href="https://openaccess.thecvf.com/content/WACV2022W/VAQ/papers/Lu_Depth_Completion_Auto-Encoder_WACVW_2022_paper.pdf">[WACV]</a>
+<!-- <a href="">[Project Page (Coming Soon)]</a>-->
+
+</p>
+<div id="bib_Lu2022DA" class="bibtex noshow">
+<pre>
+@InProceedings{Lu2022DA,
+    author    = {Lu, Kaiyue and Barnes, Nick and Anwar, Saeed and Zheng, Liang},
+    title     = {Depth Completion Auto-Encoder},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {January},
+    year      = {2022},
+    pages     = {63-73}
+}
+</pre>
+</div>
+</li> 
+	    
+	       
+<!-- Item:Anwar2022PLCNN -->
+<li ><p> M. Tahir*, S. Anwar*, A. Mian, and A. W. Muzaffar <br>
+&ldquo;Deep localization of protein structures in fluorescence microscopy images,&rdquo;<br>
+<i>Neural Computing and Applications</i><b> (NCAA) </b>, 2022.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2022PLCNN')">[BibTeX]</a>
+<a href="https://link.springer.com/article/10.1007/s00521-021-06715-y">[NCAA]</a>	
+<a href="https://arxiv.org/abs/1910.04287">[arXiv]</a>
+<a href="https://github.com/saeed-anwar/PLCNN">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2022PLCNN" class="bibtex noshow">
+<pre>
+@article{Anwar2021PLCNN,
+  title={Deep localization of protein structures in fluorescence microscopy images},
+  author={Tahir, Muhammad and Anwar, Saeed and Mian, Ajmal and Muzaffar, Abdul W.},
+  journal={Neural Computing and Applications},
+  year={2022},
+  publisher={Springer}
+}
+</pre>
+</div>
+</li>	
+	    
+<!-- Item: Usama2022VTLPR -->
+<li ><p> M. Usama, H. Anwar, A. Anwar, and S. Anwar<br>
+&ldquo;Vehicle and License Plate Recognition with Novel Dataset for Toll Collection,&rdquo;<br>
+<i>ArXiv e-prints </i><b></b>, 2022.
+<br />
+<a href="javascript:toggleBibtex('Usama2022VTLPR')">[BibTeX]</a>	
+<a href="https://arxiv.org/pdf/2202.05631.pdf">[arXiv]</a>
+<a href="https://github.com/usama-x930/VT-LPR">[Project Page]</a>
+
+</p>
+<div id="bib_Usama2022VTLPR" class="bibtex noshow">
+<pre>
+@InProceedings{Usama2022VTLPR,
+      title={Vehicle and License Plate Recognition with Novel Dataset for Toll Collection}, 
+      author={Muhammad Usama and Hafeez Anwar and Abbas Anwar and Saeed Anwar},
+      year={2022},
+      eprint={2202.05631},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
+</pre>
+</div>
+</li>  
+	    
+<h4 style="margin-bottom:0px;padding-top:10px;">2021</h4>
+
+<!-- Item: Qiu2021PnP3D -->
+<li ><p>  S. Qiu, S. Anwar, and N. Barnes <br>
+&ldquo;PnP-3D: A Plug-and-Play for 3D Point Clouds,&rdquo;<br>
+<i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i><b> (TPAMI)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Qiu2021PnP3D')">[BibTeX]</a>	
+<a href="https://ieeexplore.ieee.org/document/9661313">[TPAMI]</a>	
+<a href="http://arxiv.org/abs/2108.07378">[arXiv]</a>
+<a href="https://github.com/ShiQiu0419/pnp-3d">[Project Page]</a>
+
+</p>
+<div id="bib_Qiu2021PnP3D" class="bibtex noshow">
+<pre>
+@article{Qiu2021PnP3D,
+      title={PnP-3D: A Plug-and-Play for 3D Point Clouds}, 
+      author={Shi Qiu and Saeed Anwar and Nick Barnes},
+      journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+      year={2021}
+}
+</pre>
+</div>
+</li> 
+	    
+<!-- Item: Anwar2021R2NET -->
+<li ><p>S. Anwar, N. Barnes, and L. Petersson<br>
+&ldquo;Attention Based Real Image Restoration,&rdquo;<br>
+<i> IEEE Transactions on Neural Networks and Learning Systems </i><b>(TNNLS)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2021R2NET')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/document/9648263">[PDF]</a>
+<a href="https://ieeexplore.ieee.org/ielx7/5962385/6104215/9648263/supp1-3131739.pdf?arnumber=9648263">[Supp]</a>		
+<a href="http://arxiv.org/abs/2004.13524">[arXiv]</a>
+<a href="https://github.com/saeed-anwar/R2Net">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2021R2NET" class="bibtex noshow">
+<pre>
+@article{Anwar2021R2NET,
+    title={Attention Based Real Image Restoration},
+    author={Saeed Anwar and Nick Barnes and Lars Petersson},
+    journal={Transactions on Neural Networks and Learning Systems},
+    year={2021},
+    publisher={IEEE}
+}
+</pre>
+</div>
+</li>
+	    
+
+<!-- Item: Qiu2021Att3Ddetection -->
+<li ><p>  S. Qiu, Y. Wu, S. Anwar, and C. Li <br>
+&ldquo;Investigating Attention Mechanism in 3D Point Cloud Object Detection,&rdquo;<br>
+<i>IEEE International Conference on 3D Vision</i><b> (3DV)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Qiu2021Att3Ddetection')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/document/9665862">[3DV PDF]</a>
+<a href="https://arxiv.org/pdf/2108.00620.pdf">[arXiv]</a>
+<a href="https://github.com/ShiQiu0419/attentions_in_3D_detection/blob/main/059-poster.pdf">[Poster]</a>
+<a href="https://github.com/ShiQiu0419/attentions_in_3D_detection">[Project Page]</a>
+
+</p>
+<div id="bib_Qiu2021Att3Ddetection" class="bibtex noshow">
+<pre>
+@inproceedings{Qiu2021Att3Ddetection,
+      title={Investigating Attention Mechanism in 3D Point Cloud Object Detection}, 
+      author={Shi Qiu and Yunfan Wu and Saeed Anwar and Chongyi Li},
+      year={2021},
+      booktitle={International Conference on 3D Vision (3DV)},
+      organization={IEEE}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Hayat2021DehazeNet -->
+<li ><p> H. Ullah, K. Muhammad, M. Irfan, S. Anwar, M. Sajjad, S. Imran, and V. H. C. D. Albuquerque <br>
+&ldquo;Light-DehazeNet: A Novel Lightweight CNN Architecture for Single Image Dehazing,&rdquo;<br>
+<i>IEEE Transactions on Image Processing  </i><b> (TIP)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Hayat2021DehazeNet')">[BibTeX]</a>	
+<a href="https://ieeexplore.ieee.org/document/9562276">[TIP PDF]</a>
+<a href="https://github.com/hayatkhan8660-maker/Light-DehazeNet">[Project Page]</a>
+
+</p>
+<div id="bib_Hayat2021DehazeNet" class="bibtex noshow">
+<pre>
+@article{Hayat2021DehazeNet,
+   author = {Ullah, Hayat and Muhammad, Khan and Irfan, Muhammad and Anwar, Saeed and Sajjad, Muhammad and Imran, Shariq and  De Albuquerque, Victor Hugo C.},
+   title = {Light-DehazeNet: A Novel Lightweight CNN Architecture for Single Image Dehazing},
+   journal ={Transactions on Image Processing},
+   year={2021},
+   organization={IEEE}
+}
+</pre>
+</div>
+</li>
+	   
+<!-- Item: Tahir2021ReID -->
+<li ><p>  M. Tahir, and S. Anwar<br>
+&ldquo;Transformers in Pedestrian Image Retrieval and Person Re-Identification in a Multi-Camera Surveillance System,&rdquo;<br>
+<i>Applied Sciences </i><b> (AS)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Tahir2021ReID')">[BibTeX]</a>	
+<a href="https://www.mdpi.com/2076-3417/11/19/9197/pdf">[Official PDF]</a>
+<a href="https://github.com/saeed-anwar/TRE-ID">[Project Page]</a>
+
+</p>
+<div id="bib_Tahir2021ReID" class="bibtex noshow">
+<pre>
+@article{Tahir2021ReID,
+AUTHOR = {Tahir, Muhammad and Anwar, Saeed},
+TITLE = {Transformers in Pedestrian Image Retrieval and Person Re-Identification in a Multi-Camera Surveillance System},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {19},
+ARTICLE-NUMBER = {9197},
+ISSN = {2076-3417},
+}
+</pre>
+</div>
+</li>
+	    
+	        
+<!-- Item:Shi2021GFNet -->
+<li ><p> S. Qiu, S. Anwar and N. Barnes <br>
+&ldquo;Geometric Back-Projection Network for Point Cloud Classification,&rdquo;<br>
+<i>IEEE Transaction on MultiMedia </i><b>(TMM)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Shi2021GFNet')">[BibTeX]</a>	
+<a href="https://ieeexplore.ieee.org/abstract/document/9410405">[Official PDF]</a>
+<a href="https://arxiv.org/abs/1911.12885">[arXiv]</a>
+<a href="https://drive.google.com/file/d/1G5tlWIrfONHOKs0YIONMRuYtjeEZELV_/view?usp=share_link">[PPT]</a>
+<a href="https://github.com/ShiQiu0419/GFNet">[Project Page]</a>
+
+</p>
+<div id="bib_Shi2021GFNet" class="bibtex noshow">
+<pre>
+@article{qiu2021geometric,
+    title={Geometric Back-Projection Network for Point Cloud Classification},
+    author={Shi Qiu and Saeed Anwar and Nick Barnes},
+    journal = {IEEE Transaction on MultiMedia},
+    year={2021}
+}
+</pre>
+</div>
+</li>	
+	    
+<!-- Item: Jing2021UCNET -->
+<li ><p> J. Zhang, D.P. Fan, Y. Dai, S. Anwar, F.S. Saleh, S. Aliakbarian and N. Barnes<br>
+&ldquo;Uncertainty Inspired RGB-D Saliency Detection,&rdquo;<br>
+<i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i><b> (TPAMI)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Jing2021uncertainty')">[BibTeX]</a>	
+<a href="https://arxiv.org/pdf/2009.03075.pdf">[TPAMI PDF]</a>
+<a href="https://github.com/JingZhang617/UCNet">[Project Page]</a>
+
+</p>
+<div id="bib_Jing2021uncertainty" class="bibtex noshow">
+<pre>
+@article{Jing2021uncertainty,
+  title={Uncertainty Inspired RGB-D Saliency Detection},
+  author={Zhang, Jing and Fan, Deng-Ping and Dai, Yuchao and Anwar, Saeed and Saleh, Fatemeh and Aliakbarian, Sadegh and Barnes, Nick},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2021}
+}
+</pre>
+</div>
+</li>
+	    
+
+<!-- Item: Chongyi2021MultiColor-->
+<li ><p>C. Li, S. Anwar, J. Hou, R. Cong, C. Guo and W. Ren<br>
+&ldquo;Underwater Image Enhancement via Medium Transmission-Guided Multi-Color Space Embedding,&rdquo;<br>
+<i>IEEE Transactions on Image Processing  </i><b> (TIP)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Chongyi2021MultiColor')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/abstract/document/9426457">[TIP PDF]</a>
+<a href="https://arxiv.org/pdf/2104.13015.pdf">[arXiv]</a>
+<a href="https://github.com/Li-Chongyi/Ucolor">[Code]</a>
+<a href="https://li-chongyi.github.io/Proj_Ucolor.html">[Project Page]</a>
+
+</p>
+<div id="bib_Chongyi2021MultiColor" class="bibtex noshow">
+<pre>
+@article{Chongyi2021MultiColor,
+title  = {Underwater Image Enhancement via Medium Transmission-Guided Multi-Color Space Embedding},
+author = {Li, Chongyi and  Anwar, Saeed and Hou, Junhui and Cong, Runmin and Guo, Chunle and Ren, Wenqi},
+journal	= {IEEE Transactions on Image Processing (TIP)},
+year	= {2021},
+}
+</pre>
+</div>
+</li>
+	    
+<!-- Item: QIU2021BAAF-->
+<li ><p>S. Qiu, S. Anwar and N. Barnes<br>
+&ldquo;Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition </i><b> (CVPR)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('QIU2021BAAF')">[BibTeX]</a>
+<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Qiu_Semantic_Segmentation_for_Real_Point_Cloud_Scenes_via_Bilateral_Augmentation_CVPR_2021_paper.pdf">[CVPR PDF]</a>
+<a href="https://openaccess.thecvf.com/content/CVPR2021/supplemental/Qiu_Semantic_Segmentation_for_CVPR_2021_supplemental.pdf">[Supp]</a>
+<a href="https://arxiv.org/pdf/2103.07074.pdf">[arXiv+Supp]</a>
+<a href="https://github.com/ShiQiu0419/BAAF-Net/blob/main/cvpr2021_poster.pdf">[Poster]</a>
+<a href="https://drive.google.com/file/d/1eox2L1SWxg-mN1a7FI2y1Ffbfcvhn8Cs/view?usp=share_link">[PPT]</a>
+<a href="https://github.com/ShiQiu0419/BAAF-Net">[Project Page]</a>
+
+</p>
+<div id="bib_QIU2021BAAF" class="bibtex noshow">
+<pre>
+@InProceedings{QIU2021BAAF,
+    author    = {Qiu, Shi and Anwar, Saeed and Barnes, Nick},
+    title     = {Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2021},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Yang2020InvDN -->
+<li ><p>Y. Liu, Z. Qin, S. Anwar, P. Ji, D. Kim, S. Cadwell and T. Gedeon <br>
+&ldquo;Invertible Denoising Network: A Light Solution for Real Noise Removal,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition </i><b> (CVPR)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Yang2020InvDN')">[BibTeX]</a>
+<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Invertible_Denoising_Network_A_Light_Solution_for_Real_Noise_Removal_CVPR_2021_paper.pdf">[CVPR PDF]</a>
+<a href="https://arxiv.org/pdf/2104.10546.pdf">[arXiv]</a>
+<a href="https://github.com/Yang-Liu1082/InvDN.git">[Project Page]</a>
+
+</p>
+<div id="bib_Yang2020InvDN" class="bibtex noshow">
+<pre>
+@article{Yang2020InvDN,
+  author = {Liu, Yang and Qin, Zhenyue and Anwar, Saeed and Ji, Pan and Kim, Dongwoo and Cadwell, Sabrina and Gedeon, Tom },
+  title = {Invertible Denoising Network: A Light Solution for Real Noise Removal},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2021}
+}
+</pre>
+</div>
+</li>
+	    
+	    
+<!-- Item: Han2020CWR -->
+<li ><p>J. Han, M. Shoeiby, T. Malthus, E. Botha, J. Anstee, S. Anwar, R. Wei, L. Petersson, M. A. Armin <br>
+&ldquo; Single Underwater Image Restoration by contrastive learning,&rdquo;<br>
+<i>International Geoscience and Remote Sensing Symposium </i><b> (IGARSS), Oral</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Han2020CWR')">[BibTeX]</a>
+<a href="https://igarss2021.com/view_paper.php?PaperNum=1098">[Official PDF]</a>
+<a href="https://arxiv.org/pdf/2103.09697.pdf">[arXiv]</a>
+<a href="https://github.com/JunlinHan/CWR">[Project Page]</a>
+
+</p>
+<div id="bib_Han2020CWR" class="bibtex noshow">
+<pre>
+@article{Han2020CWR,
+  author = {Han, Junlin and Shoeiby, Mehrdad and Malthus, Tim and Botha, Elizabeth and Anstee, Janet and  Anwar, Saeed  and Wei, Ran and Petersson, Lars  and Armin, Mohammad Ali 
+},
+  title = {Single Underwater Image Restoration by contrastive learning},
+  booktitle = {International Geoscience and Remote Sensing Symposium (IGARSS)},
+  year = {2021}
+}
+</pre>
+</div>
+</li>
+
+	   
+<!-- Item: Shoeiby2021multiSR -->
+<li ><p> M. Shoeiby, S. Aliakbarian, S. Anwar and L. Petersson <br>
+&ldquo;Multi-FAN: Multi-Spectral Mosaic Super-Resolution Via Multi-Scale Feature Aggregation Network,&rdquo;<br>
+<i> Machine Vision and Applications </i><b> (MVA)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Shoeiby2021multiSR')">[BibTeX]</a>
+<a href=https://link.springer.com/article/10.1007/s00138-021-01174-w">[Official PDF]</a>
+<a href="https://arxiv.org/pdf/1807.03528.pdf">[arXiv]</a>
+</p>
+<div id="bib_Shoeiby2021multiSR" class="bibtex noshow">
+<pre>
+@article{Shoeiby2021multiSR,
+  title={Multi-FAN: Multi-Spectral Mosaic Super-Resolution Via Multi-Scale Feature Aggregation Network},
+  author={Shoeiby, Mehrdad and Aliakbarian, Sadegh and Anwar, Saeed and Petersson, Lars},
+  journal={ Machine Vision and Applications},
+  year={2021}
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item: Tan2021DDNET-->
+<li ><p> T. Hussain, S. Anwar, A. Ullah, K. Muhammad and S. W. Baik<br>
+&ldquo;Densely Deformable Efficient Salient Object Detection Network,&rdquo;<br>
+<i> ArXiv e-prints </i><b> </b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Tan2021DDNET')">[BibTeX]</a>
+<a href="https://arxiv.org/pdf/2102.06407.pdf">[arXiv]</a>
+<a href="https://github.com/tanveer-hussain/EfficientSOD">[Project Page]</a>
+
+</p>
+<div id="bib_Tan2021DDNET" class="bibtex noshow">
+<pre>
+@InProceedings{Tan2021DDNET,
+      title={Densely Deformable Efficient Salient Object Detection Network}, 
+      author={Tanveer Hussain and Saeed Anwar and Amin Ullah and Khan Muhammad and Sung Wook Baik},
+      year={2021},
+      eprint={2102.06407},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item:Anwar2021CoinNet -->
+<li ><p> H. Anwar*, S. Anwar*, S. Zambanini and F. Porikli <br>
+&ldquo;Deep Ancient Roman Republican Coin Classification via Feature Fusion and Attention,&rdquo;<br>
+<i> Pattern Recognition </i><b>(PR)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2021CoinNet')">[BibTeX]</a>
+<a href="https://www.sciencedirect.com/science/article/pii/S0031320321000583">[PR PDF]</a>
+<a href="https://arxiv.org/pdf/1908.09428.pdf">[arXiv]</a>
+<a href="https://github.com/saeed-anwar/CoinNet">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2021CoinNet" class="bibtex noshow">
+<pre>
+@article{Anwar2021CoinNet,
+title = {Deep Ancient Roman Republican Coin Classification via Feature Fusion and Attention},
+journal = {Pattern Recognition},
+pages = {107871},
+year = {2021},
+issn = {0031-3203},
+doi = {https://doi.org/10.1016/j.patcog.2021.107871},
+url = {https://www.sciencedirect.com/science/article/pii/S0031320321000583},
+author = {Hafeez Anwar and Saeed Anwar and Sebastian Zambanini and Fatih Porikli},
+}
+</pre>
+</div>
+</li>	
+	
+<!-- Item: Anwar2021DefocusMVA -->
+<li ><p>
+S. Anwar, Z. Hayder and F. Porikli <br>
+&ldquo;Deblur and Deep Depth from a Defocus Image,&rdquo;<br>
+<i>Machine Vision and Applications </i><b>(MVA)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2021DefocusMVA')">[BibTeX]</a>
+<a href="https://link.springer.com/article/10.1007/s00138-020-01162-6">[Official PDF]</a>
+<a href="../papers/MVA2020_Defocus.pdf">[arXiv]</a>
+<a href="../codes/DefocusingImagesCode.zip">[Code]</a>
+
+</p>
+<div id="bib_Anwar2021DefocusMVA" class="bibtex noshow">
+<pre>
+@article{Anwar2021DefocusMVA,
+  title={Deblur and deep depth from single defocus image},
+  author={Anwar, Saeed and Hayder, Zeeshan and Porikli, Fatih},
+  journal={Machine Vision and Applications},
+  volume={32},
+  number={1},
+  pages={1--13},
+  year={2021},
+  publisher={Springer}
+}
+</pre>
+</div>
+</li
+	
+<!-- Item: QIU2021DRNET-->
+<li ><p>S. Qiu, S. Anwar and N. Barnes<br>
+&ldquo;Dense-Resolution Network for Point Cloud Classification and Segmentation,&rdquo;<br>
+<i>IEEE Winter Conference on Applications of Computer Vision </i><b> (WACV)</b>, 2021.
+
+<br />
+<a href="javascript:toggleBibtex('QIU2021DRNET')">[BibTeX]</a>
+<a href="https://openaccess.thecvf.com/content/WACV2021/papers/Qiu_Dense-Resolution_Network_for_Point_Cloud_Classification_and_Segmentation_WACV_2021_paper.pdf">[WACV PDF]</a>
+<a href="https://openaccess.thecvf.com/content/WACV2021/supplemental/Qiu_Dense-Resolution_Network_for_WACV_2021_supplemental.pdf">[WACV Supp]</a>
+<a href="https://arxiv.org/pdf/2005.06734.pdf">[arXiv]</a>
+<a href="https://youtu.be/TnbksHzaJzw">[Video]</a>
+<a href="https://drive.google.com/file/d/10yyLmdloHsI-PFKYEdoxIs4R_auVEiXJ/view?usp=sharing">[PPT]</a>
+<a href="https://github.com/ShiQiu0419/DRNet">[Project Page]</a>
+
+
+</p>
+<div id="bib_QIU2021DRNET" class="bibtex noshow">
+<pre>
+@InProceedings{QIU2021DRNET,
+    author    = {Qiu, Shi and Anwar, Saeed and Barnes, Nick},
+    title     = {Dense-Resolution Network for Point Cloud Classification and Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2021},
+    pages     = {3813-3822}
+}
+</pre>
+</div>
+</li>
+
+	
+<h4 style="margin-bottom:0px;padding-top:10px;">2020</h4>
+
+	
+<!-- Item: Anwar2020DRLN -->
+<li ><p>S. Anwar, and N. Barnes <br>
+&ldquo;Densely Residual Laplacian Super-Resolution,&rdquo;<br>
+<i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i><b> (TPAMI)</b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2020DRLN')">[BibTeX]</a>
+<a href="https://www.computer.org/csdl/journal/tp/5555/01/09185010/1mNmSufHH8c">[TPAMI PDF]</a>
+<a href="https://s3.amazonaws.com/ieeecs.cdn.csdl.public/trans/tp/5555/01/extras/ttp555501-09185010s1-supp1-3021088.pdf">[TPAMI Supp]</a>
+<a href="../papers/DRLN.pdf">[arXiv]</a>
+<a href="https://github.com/saeed-anwar/DRLN">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2020DRLN" class="bibtex noshow">
+<pre>
+@article{Anwar2020DRLN,
+  author = {Anwar, Saeed and Barnes, Nick},
+  title = {Densely Residual Laplacian Super-Resolution},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = {2020}
+}
+</pre>
+</div>
+</li>
+
+
+<!-- Item: Anwar2020ColorSurvey -->
+<li ><p>S. Anwar, M. Tahir, C. Li, A. Mian, F. S. Khan, A. W. Muzaffar<br>
+&ldquo;Image Colorization: A Survey and Dataset,&rdquo;<br>
+<i>ArXiv e-prints </i><b></b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2020ColorSurvey')">[BibTeX]</a>
+<a href="https://arxiv.org/pdf/2008.10774.pdf">[ArXiv]</a>
+<a href="https://github.com/saeed-anwar/ColorSurvey">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2020ColorSurvey" class="bibtex noshow">
+<pre>
+@article{Anwar2020ColorSurvey,
+  title={Image Colorization: A Survey and Dataset},
+  author={Anwar, Saeed and Tahir, Muhammad and Li, Chongyi and Mian, Ajmal and Khan, Fahad Shahbaz and Muzaffar, Abdul Wahab},
+  journal={arXiv preprint arXiv:2008.10774},
+  year={2020}
+}
+</pre>
+</div>
+</li>
+
+
+	
+<!-- Item: Anwar2020UWE_Survey -->
+<li ><p>S. Anwar, and C. Li <br>
+&ldquo; Diving Deeper into Underwater image enhancement: A survey,&rdquo;<br>
+<i>Signal Processing: Image Communication</i><b> (SPIC)</b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2020UWESurvey')">[BibTeX]</a>
+<a href="https://www.sciencedirect.com/science/article/pii/S0923596520301478">[Official PDF]</a>
+<a href="https://arxiv.org/pdf/1907.07863.pdf">[arXiv]</a>
+<a href="https://github.com/saeed-anwar/UWSurvey">[Project Page]</a> 
+
+</p>
+<div id="bib_Anwar2020UWESurvey" class="bibtex noshow">
+<pre>
+@article{Anwar2020UWESurvey,
+  title = "Diving deeper into underwater image enhancement: A survey",
+  journal = "Signal Processing: Image Communication",
+  volume = "89",
+  pages = "115978",
+  year = "2020",
+  issn = "0923-5965",
+  doi = "https://doi.org/10.1016/j.image.2020.115978",
+  url = "http://www.sciencedirect.com/science/article/pii/S0923596520301478",
+  author = "Saeed Anwar and Chongyi Li",
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Yang2020Glow -->
+<li ><p>Y. Liu, Z. Qin, S. Anwar, S. Caldwell, and T. Gedeon <br>
+&ldquo;Are Deep Neural Architectures Losing Information? Invertibility Is Indispensable,&rdquo;<br>
+<i>International Conference on Neural Information Processing </i><b> (ICONIP), Oral</b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Yang2020Glow')">[BibTeX]</a>
+<a href="https://arxiv.org/pdf/2009.03173.pdf">[Official PDF]</a>
+<a href="https://github.com/Lillian1082/IRAE_pytorch">[Project Page]</a> 
+
+</p>
+<div id="bib_Yang2020Glow" class="bibtex noshow">
+<pre>
+@article{Yang2020Glow,
+  author = {Liu, Yang and Qin, Zhenyue and Anwar, Saeed  and Caldwell, Sabrina  and Gedeon, Tom },
+  title = {Are Deep Neural Architectures Losing Information? Invertibility Is Indispensable},
+  booktitle={International Conference on Neural Information Processing},  
+  year = {2020}
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item: Xu2020OfGAN -->
+<li ><p>J. Xu, S. Anwar,   N. Barnes, F. Grimpen, O. Salvado, S. Anderson and M. A. Armin<br>
+&ldquo;OfGAN: Realistic Rendition of Synthetic Colonoscopy Videos,&rdquo;<br>
+<i>Medical Image Computing and Computer Assisted Interventions </i><b> (MICCAI), Oral</b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Xu2020OfGAN')">[BibTeX]</a>	
+<a href="https://link.springer.com/chapter/10.1007/978-3-030-59716-0_70">[Official PDF]</a>
+
+</p>
+<div id="bib_Xu2020OfGAN" class="bibtex noshow">
+<pre>
+@InProceedings{Xu2020OfGAN,
+ author="Xu, Jiabo and Anwar, Saeed and Barnes, Nick and Grimpen, Florian and Salvado, Olivier and Anderson, Stuart and Armin, Mohammad Ali",
+ title="OfGAN: Realistic Rendition of Synthetic Colonoscopy Videos",
+ booktitle="Medical Image Computing and Computer Assisted Intervention (MICCAI)",
+ year="2020",
+ publisher="Springer International Publishing",
+ address="Cham",
+ pages="732--741",
+ isbn="978-3-030-59716-0"
+}
+</pre>
+</div>
+</li>
+
+
+	
+<!-- Item: Anwar2020Survey -->
+<li ><p>S. Anwar, S. Khan and N. Barnes <br>
+&ldquo;A Deep Journey into Super-resolution: A survey,&rdquo;<br>
+<i>ACM Computing Surveys </i><b>(CSUR)</b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2020Survey')">[BibTeX]</a>
+<a href="https://dl.acm.org/doi/abs/10.1145/3390462">[CSUR PDF]</a>
+<a href="https://arxiv.org/abs/1904.07523">[arXiv]</a>
+<a href="https://github.com/saeed-anwar/SRsurvey">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2020Survey" class="bibtex noshow">
+<pre>
+@article{Anwar2020Survey,
+  author = {Anwar, Saeed and Khan, Salman and Barnes, Nick},
+    title = {A Deep Journey into Super-resolution: A survey},
+    journal={ACM Computing Surveys (CSUR)},
+    volume={},
+    number={},
+    pages={},
+    year={2020},
+    publisher={ACM New York, NY, USA}
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item: Jing2020UCNET -->
+<li ><p> J. Zhang, D.P. Fan, Y. Dai, S. Anwar, F.S. Saleh, T. Zhang and N. Barnes<br>
+&ldquo;UC-Net: Uncertainty Inspired RGB-D Saliency Detection via Conditional Variational Autoencoders,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition </i><b> (CVPR), Oral</b>, 2020. <font color="red">[Best Paper nominated in CVPR]</font>
+
+<br />
+<a href="javascript:toggleBibtex('Jing2020UCNET')">[BibTeX]</a>	
+<a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_UC-Net_Uncertainty_Inspired_RGB-D_Saliency_Detection_via_Conditional_Variational_Autoencoders_CVPR_2020_paper.pdf">[CVPR PDF]</a>
+<a href="https://github.com/JingZhang617/UCNet">[Project Page]</a>
+
+</p>
+<div id="bib_Jing2020UCNET" class="bibtex noshow">
+<pre>
+@InProceedings{Jing2020UCNET,
+author = {Zhang, Jing and Fan, Deng-Ping and Dai, Yuchao and Anwar, Saeed and Saleh, Fatemeh Sadat and Zhang, Tong and Barnes, Nick},
+title = {UC-Net: Uncertainty Inspired RGB-D Saliency Detection via Conditional Variational Autoencoders},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item: Kaiyue2020Depth -->
+<li ><p> K. Lu, N. Barnes,  S. Anwar and L. Zheng<br>
+&ldquo;From Depth What Can You See? Depth Completion via Auxiliary Image Reconstruction,&rdquo;<br>
+<i> IEEE Computer Vision and Pattern Recognition </i><b> (CVPR)</b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Kaiyue2020Depth')">[BibTeX]</a>	
+<a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Lu_From_Depth_What_Can_You_See_Depth_Completion_via_Auxiliary_CVPR_2020_paper.pdf">[CVPR PDF]</a>
+<a href="https://www.youtube.com/watch?v=aIxvUuoT0Cg">[Video]</a>																		 
+<!-- <a href="">[Project Page (Coming Soon)]</a>-->
+
+</p>
+<div id="bib_Kaiyue2020Depth" class="bibtex noshow">
+<pre>
+@InProceedings{Kaiyue2020Depth,
+author = {Lu, Kaiyue and Barnes, Nick and Anwar, Saeed and Zheng, Liang},
+title = {From Depth What Can You See? Depth Completion via Auxiliary Image Reconstruction},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item: Anwar2020IERD -->
+<li ><p>S. Anwar, C. P. Huynh and F. Porikli <br>
+&ldquo;Identity Enhanced Image Denoising,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition Workshops</i><b> (CVPRW)</b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2020IERD')">[BibTeX]</a>
+<a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Anwar_Identity_Enhanced_Residual_Image_Denoising_CVPRW_2020_paper.pdf">[CVPR PDF]</a>
+<a href="http://arxiv.org/abs/2004.13523">[ArXiV]</a>
+<a href="http://openaccess.thecvf.com/content_CVPRW_2020/supplemental/Anwar_Identity_Enhanced_Residual_CVPRW_2020_supplemental.pdf">[CVPR Supp]</a>
+<a href="https://github.com/saeed-anwar/IERD">[Code]</a>
+
+</p>
+<div id="bib_Anwar2020IERD" class="bibtex noshow">
+<pre>
+@InProceedings{Anwar2020IERD,
+    author = {Anwar, Saeed and Phuoc Huynh, Cong and Porikli, Fatih},
+    title = {Identity Enhanced Residual Image Denoising},
+    booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month = {June},
+    year = {2020}
+}
+</pre>
+</div>
+</li>	
+	
+<!-- Item:Yang2020GradNet -->
+<li ><p> Y. Liu, S. Anwar and L. Zheng <br>
+&ldquo;GradNet Image Denoising,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition Workshops</i><b> (CVPRW)</b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Yang2020GradNet')">[BibTeX]</a>	
+<a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Liu_GradNet_Image_Denoising_CVPRW_2020_paper.pdf">[CVPR PDF]</a>
+<a href="http://openaccess.thecvf.com/content_CVPRW_2020/supplemental/Liu_GradNet_Image_Denoising_CVPRW_2020_supplemental.pdf">[CVPR Supp]</a>
+<a href="https://github.com/Lillian1082/GradNet-Image-Denoising">[Code]</a>
+
+</p>
+<div id="bib_Yang2020GradNet" class="bibtex noshow">
+<pre>
+@InProceedings{Yang2020GradNet,
+    author = {Liu, Yang and Anwar, Saeed and Zheng, Liang and Tian, Qi},
+    title = {GradNet Image Denoising},
+    booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month = {June},
+    year = {2020}
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item:Mehrdad2019SR -->
+<li ><p> M. Shoeiby, M. A. Armin, S. Aliakbarian, S. Anwar and L. petersson <br>
+&ldquo;Mosaic Super-resolution via Sequential Feature Pyramid Networks,&rdquo;<br>
+<i>IEEE Computer Vision and Pattern Recognition Workshops</i><b> (CVPRW), Oral</b>, 2020.
+
+<br />
+<a href="javascript:toggleBibtex('Mehrdad2019SR')">[BibTeX]</a>	
+<a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w6/Shoeiby_Mosaic_Super-Resolution_via_Sequential_Feature_Pyramid_Networks_CVPRW_2020_paper.pdf
+">[CVPR PDF]</a>
+<a href="https://arxiv.org/abs/2004.06853">[arXiv]</a>
+</p>
+<div id="bib_Mehrdad2019SR" class="bibtex noshow">
+<pre>
+@InProceedings{Mehrdad2019SR,
+     author = {Shoeiby, Mehrdad and Armin, Ali and Aliakbarian, Sadegh and Anwar, Saeed and Petersson, Lars},
+     title = {Mosaic Super-Resolution via Sequential Feature Pyramid Networks},
+     booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+     month = {June},
+     year = {2020}
+}
+</pre>
+</div>
+</li>	
+	
+<h4 style="margin-bottom:0px;padding-top:10px;">2019 and Earlier</h4>
+	
+<!-- Item: Anwar2019RIDNET -->
+<li ><p>S. Anwar and N. Barnes <br>
+&ldquo;Real Image Denoising with Feature Attention,&rdquo;<br>
+<i>IEEE International Conference on Computer Vision</i><b> (ICCV), Oral</b>, 2019
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2019RIDNET')">[BibTeX]</a>
+<a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Anwar_Real_Image_Denoising_With_Feature_Attention_ICCV_2019_paper.pdf">[ICCV PDF]</a>
+<a href="http://openaccess.thecvf.com/content_ICCV_2019/supplemental/Anwar_Real_Image_Denoising_ICCV_2019_supplemental.pdf">[ICCV Supp]</a>
+<a href="https://github.com/saeed-anwar/RIDNet">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2019RIDNET" class="bibtex noshow">
+<pre>
+@InProceedings{Anwar2019RIDNET,
+author = {Anwar, Saeed and Barnes, Nick},
+title = {Real Image Denoising With Feature Attention},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {October},
+year = {2019}
+}
+</pre>
+</div>
+</li>	
+	
+<!-- Item: Anwar2019UWE -->
+<li ><p> S. Anwar, C. Li and F. Porikli <br>
+&ldquo;Underwater Scene Prior Inspired Deep Underwater Image and Video Enhancement,&rdquo;<br>
+<i>Pattern Recognition </i><b> (PR)</b>, 2019. <font color="red">[ESI Highly Cited][Best Paper Honorable Mention]</font>
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2019UWE')">[BibTeX]</a>	
+<a href="https://www.sciencedirect.com/science/article/pii/S0031320319303401#fig0010">[PR Version]</a>
+<a href="https://arxiv.org/pdf/1807.03528.pdf">[arXiv]</a>
+<a href="https://github.com/saeed-anwar/UWCNN">[Project Page]</a>
+
+</p>
+<div id="bib_Anwar2019UWE" class="bibtex noshow">
+<pre>
+@article{Anwar2019UWE,
+  title={Underwater Scene Prior Inspired Deep Underwater Image and Video Enhancement},
+  author={Li, Chongyi and Anwar, Saeed},
+  journal={Pattern Recognition},
+  pages={107038},
+  year={2019},
+  publisher={Elsevier}
+}
+</pre>
+</div>
+</li>	
+	
+
+
+<!-- Item: Anwar2018PAMI -->
+<li ><p>
+S. Anwar, C. P. Huynh and F. Porikli <br>
+&ldquo;Image Deblurring with a Class-Specific Prior,&rdquo;<br>
+<i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i><b> (TPAMI)</b>, 2018.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2018PAMI')">[BibTeX]</a>
+<a href="../papers/TPAMI18-deblurring-preprint.pdf">[TPAMI PDF]</a>
+<a href="../papers/TPAMI18-deblurring-supp.pdf">[TPAMI Supp]</a>
+<a href="../codes/Deblurring_ICCV15_PAMI18.zip">[Code]</a>
+
+</p>
+<div id="bib_Anwar2018PAMI" class="bibtex noshow">
+<pre>
+@article{Anwar2018PAMI,
+  author = {Anwar, Saeed and Huynh, Cong P. and Porikli, Fatih },
+  title = {Image Deblurring with a Class-Specific Prior},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = {2018}
+}
+</pre>
+</div>
+</li>	
+	
+
+<!-- Item: Anwar2017noise -->
+<li ><p>
+S. Anwar, F. Porikli and C. P. Huynh <br>
+&ldquo;Category-Specific Object Image Denoising,&rdquo;<br>
+<i>IEEE Transactions in Image Processing </i><b>(TIP)</b>, 2017.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2017category')">[BibTeX]</a>
+<a href="../papers/TIP17-noise.pdf">[TIP PDF]</a>
+<a href="../codes/CSID_TIP17_codes.zip">[Code]</a>
+
+</p>
+<div id="bib_Anwar2017category" class="bibtex noshow">
+<pre>
+@article{Anwar2017category,
+	title	={Category-specific object image denoising},
+	author	={Anwar, Saeed and Porikli, Fatih and Huynh, Cong Phuoc},
+	journal	={IEEE Transactions on Image Processing},
+	volume	={26},
+	number	={11},
+	pages	={5506--5518},
+	year	={2017},
+	publisher={IEEE}
+}
+</pre>
+</div>
+</li>	
+	
+<!-- Item: Anwar2017internalnoise -->
+<li ><p>
+S. Anwar, C. P. Huynh and F. Porikli <br>
+&ldquo;Combined Internal and External Category-Specific Image Denoising,&rdquo;<br>
+<i>British Machine Vision Conference </i><b>(BMVC)</b>, 2017.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2017internalnoise')">[BibTeX]</a>
+<a href="../papers/BMVC17-internalnoise.pdf">[BMVC PDF]</a>
+<a href="../codes/Combined_BMVC17_codes.zip">[Code]</a>
+
+</p>
+<div id="bib_Anwar2017internalnoise" class="bibtex noshow">
+<pre>
+@article{Anwar2017internalnoise,
+  author = {Anwar, Saeed and Huynh, Cong P. and Porikli, Fatih },
+  title = {Combined Internal and External Category-Specific Image Denoising},
+  journal = {British Machine Vision Conference},
+  year = {2017}
+}
+</pre>
+</div>
+</li>	
+	
+	
+	
+<!-- Item: Anwar2017depth -->
+<li ><p>
+S. Anwar, Z Hayder and F. Porikli <br>
+&ldquo;Depth Estimation and Blur Removal from a Single Out-of-focus Image,&rdquo;<br>
+<i>British Machine Vision Conference </i><b>(BMVC), Oral</b>, 2017.
+
+<br />
+<a href="javascript:toggleBibtex('Anwar2017depth')">[BibTeX]</a>
+<a href="../papers/BMVC17-depth.pdf">[BMVC PDF]</a>
+<a href="../codes/DefocusingImagesCode.zip">[Code]</a>
+
+</p>
+<div id="bib_Anwar2017depth" class="bibtex noshow">
+<pre>
+@article{Anwar2017depth,
+  author = {Anwar, Saeed and Hayder, Zeeshan and Porikli, Fatih },
+  title = {Depth Estimation and Blur Removal from a Single Out-of-focus Image},
+  journal = {British Machine Vision Conference},
+  year = {2017}
+}
+</pre>
+</div>
+</li>	
+
+
+
+
+<!-- Item: Anwar2015ICCV -->
+<li ><p>
+S. Anwar, C. P. Huynh and F. Porikli <br>
+&ldquo;Class-specific image deblurring,&rdquo;<br>
+<i>IEEE International Conference on Computer Vision </i><b>(ICCV)</b>, 2015.
+
+<br />
+<a href="javascript:toggleBibtex('anwar2015class')">[BibTeX]</a>
+<a href="https://openaccess.thecvf.com/content_iccv_2015/papers/Anwar_Class-Specific_Image_Deblurring_ICCV_2015_paper.pdf">[ICCV PDF]</a>
+<a href="../codes/Deblurring_ICCV15_PAMI18.zip">[Code]</a>
+</p>
+<div id="bib_anwar2015class" class="bibtex noshow">
+<pre>
+@inproceedings{anwar2015class,
+  title={Class-specific image deblurring},
+  author={Anwar, Saeed and Phuoc Huynh, Cong and Porikli, Fatih},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={495--503},
+  year={2015}
+}
+</pre>
+</div>
+</li>	
+
+<!-- Item: farooq2009fast -->
+<li ><p>
+M. Farooq, S. Anwar and S. Khan <br>
+&ldquo;Fast mean shift and particle filtering based visual human tracking,&rdquo;<br>
+<i>IEEE Multitopic Conference</i><b>(INMIC)</b>, 2009.
+
+<br />
+<a href="javascript:toggleBibtex('farooq2009fast')">[BibTeX]</a>
+<a href="../papers/INMIC2009-fast.pdf">[PDF]</a>
+
+</p>
+<div id="bib_farooq2009fast" class="bibtex noshow">
+<pre>
+@inproceedings{farooq2009fast,
+  title={Fast mean shift and particle filtering based visual human tracking},
+  author={Farooq, Muhammad and Anwar, Saeed and Khan, Sharif},
+  booktitle={Multitopic Conference, INMIC 2009. IEEE 13th International},
+  pages={1--5},
+  year={2009}
+}
+</pre>
+</div>
+</li>
+						  
+<h4 style="margin-bottom:0px;padding-top:10px;">PhD Thesis </h4>
+<!-- Item: AnwarThesis -->
+<li ><p>
+S. Anwar <br>
+&ldquo;Data-Driven Image Restoration,&rdquo;<br>
+<i>The Australian National University, Australia </i><b>(ANU)</b>
+
+<br />
+<a href="javascript:toggleBibtex('anwarthesis')">[BibTeX]</a>
+<a href="https://openresearch-repository.anu.edu.au/handle/1885/148622">[PDF]</a>
+</p>
+<div id="bib_anwarthesis" class="bibtex noshow">
+<pre>
+@phdthesis{anwarthesis,
+  title={Data-Driven Image Restoration},
+  author={Anwar, Saeed},
+  school={The Australian National University (Australia) },
+  year={2018}
+}
+</pre>
+</div>
+</li>	
+					    
+					       
+</pre>
+</div>
+</li>
+    </ul>
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}          
+
+</body>
+</html>

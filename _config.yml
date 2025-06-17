@@ -1,18 +1,18 @@
 title:            
 description:      My academic webpage.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              https://saeed-anwar.github.io
+url:              https://mr-abdull.github.io
 
 # Owner/author information
 owner:
-  name:           Saeed Anwar
-  avatar:         Saeed.jpg 
-  bio:            I'm Assistant Professer at KFUPM, Honorary Faculty at ANU, Visiting Fellow at UTS and Honorary Assistant Professor at UC.
-  email:          saeed.anwar@anu.edu.au
+  name:           Mohammad Abdul Rehman
+  avatar:         abdul.jpg
+  bio:            I'm Penetration Tester and a Cyber Security Researcher.
+  email:          m.abdulrahmancs@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   #twitter: jponttuset
-  linkedin: saeed-anwar-51689a13
-  google_scholar: vPJIHywAAAAJ&hl=en
+  linkedin: mohammad-abdul-rehman-2b1b82285
+ # google_scholar: vPJIHywAAAAJ&hl=en
   #google_plus: 113718226018314522413
   #github: jponttuset
   
@@ -43,7 +43,7 @@ links:
    url: /Teaching/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Australia/ACT
+timezone:    Pakistan/GMT+5
 future:      true
 #pygments:    true
 highlighter: rouge

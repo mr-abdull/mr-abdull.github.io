@@ -37,7 +37,8 @@ tags: [Jekyll, theme, responsive, blog, template]
   <li><Strong>13/01/2024</Strong> Junior Cyber Security Analyst Career Path from CISCO Networking Academy </li>
   <li><Strong>24/04/2024</Strong> SQL Injection Attack from EC-Council </li>
   <li><Strong>15/05/2025</Strong> Ethical Hacking Essentials (EHE) from EC-Council </li>
-  <h2>
+  
+ <h2>
  <a id="new-page" class="anchor" href="#new-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>HONORS & AWARDS:</h2>
  <ul>
   <li> <Strong>2023-2024</Strong>Vice President Tech Tribe Society (Edwardes College Peshawar)</li>
